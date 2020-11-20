@@ -16,7 +16,7 @@ class App extends Component {
       play: false,
       pause: true,
     }
-    this.audio = new Audio(require('./assets/Marry_Your_Daughter-Brian McKnight.mp3'))
+    this.audio = new Audio(require('./assets/lagu.mp3'))
     this.audio.addEventListener('ended', function () {
       this.currentTime = 0;
       this.play();
@@ -166,13 +166,13 @@ class App extends Component {
                 <p>akad dan resepsi pernikahan putra-putri kami:</p>
                 <br />
                 <br />
-                <img className='nganten-image' src={require('./assets/denna_2.jpg')}/>
+                  <img className='nganten-image' src={require('./assets/ilham3.jpg')} />
                 <p className="full-name">{this.state.wifeFullName}</p>
                 <p style={{fontSize: '16px'}}>
                   {this.state.wifeFullNameCaption}
                 </p>
                 <p style={{fontSize: '52px', margin: '20px'}}>&</p>
-                <img className='nganten-image' src={require('./assets/ilham.jpg')}/>
+                  <img className='nganten-image' src={require('./assets/denna2.jpg')} />
                 <p className="full-name">{this.state.husbandFullName}</p>
                 <p style={{fontSize: '16px'}}>
                   {this.state.husbandFullNameCaption}
