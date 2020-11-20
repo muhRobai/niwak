@@ -128,7 +128,7 @@ class App extends Component {
               Yth Bapak/Ibu/Saudara/i
               <br />
               <span style={{fontWeight: 'bold'}} id="to-name">
-                {this.state.recipientName} & Keluarga
+                  {this.state.recipientName}
               </span>
             </p>
           </div>
