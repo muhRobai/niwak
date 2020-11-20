@@ -78,9 +78,9 @@ class App extends Component {
       autoplay: true
     };
     const images = [
-      { src: require("./assets/carousel-1.jpg") },
-      { src: require("./assets/carousel-2.jpg") },
-      { src: require("./assets/carousel-3.jpg") },
+      { src: require("./assets/carousel-1.webp") },
+      { src: require("./assets/carousel-2.webp") },
+      { src: require("./assets/carousel-3.webp") },
     ];
     
     return !this.state.isValidRecipient ? (
@@ -166,13 +166,13 @@ class App extends Component {
                 <p>akad dan resepsi pernikahan putra-putri kami:</p>
                 <br />
                 <br />
-                  <img className='nganten-image' src={require('./assets/ilham3.jpg')} />
+                  <img className='nganten-image' src={require('./assets/ilham3.webp')} />
                 <p className="full-name">{this.state.wifeFullName}</p>
                 <p style={{fontSize: '16px'}}>
                   {this.state.wifeFullNameCaption}
                 </p>
                 <p style={{fontSize: '52px', margin: '20px'}}>&</p>
-                  <img className='nganten-image' src={require('./assets/denna2.jpg')} />
+                  <img className='nganten-image' src={require('./assets/denna2.webp')} />
                 <p className="full-name">{this.state.husbandFullName}</p>
                 <p style={{fontSize: '16px'}}>
                   {this.state.husbandFullNameCaption}
