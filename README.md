@@ -14,7 +14,7 @@ Si Fulan,othervalue
 Customize your payload data on `payload.js` then build it,
 
 ```
-BASE_URL=https://yourdomain CSV=./example-recipients.csv REACT_APP_SECRET_KEY=foobar npm run build
+BASE_URL=https://ilhamdennawedding.netlify.app CSV=./example-recipients.csv REACT_APP_SECRET_KEY=foobar npm run build
 ```
 
 The script will create the exact CSV file, `output.csv`, but with additional field.
